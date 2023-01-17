@@ -1,0 +1,69 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg.webp);
+    background-color: #000; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+div#b {
+    top: 200px;
+    position: fixed;
+    left:-10%;
+    height: 500px;
+    width: auto;
+}
+
+.ch {
+    height: 100px;
+}
+
+.fixed-logo {
+    position: fixed;
+    top: 86%;
+    height: 75px;
+}
+
+.ph {
+    position: fixed;
+    height: 600px;
+    left: 86%;
+    top: 5%;
+}
+
+.text {
+    position: fixed;
+    background: rgb(48, 43, 43);
+    color: #00B844;
+    height: 190px;
+    width: 900px;
+    left: 15%;
+    border-radius: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    word-wrap:normal;
+}
+
+.yt {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    font-size: 70px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    display: none;
+}
